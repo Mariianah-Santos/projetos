@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/m-plus-1-code');
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #5de1ea;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    text-shadow: 2px 0px 5px black;
+    margin-top: 10rem;
+}
+form {
+    display: grid;
+    background-color: #17c3d5;
+    margin-top: 2rem;
+    border-radius: 20px;
+    width: 80vh;
+    height: 100vh;
+    box-shadow: 0px 0px 20px black;
+}
+.form label {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.form input {
+    width: 90%;
+    height: 26px;
+    margin-left: 30px;
+    outline: none;
+    border-radius: 6px;
+}
+.form input::placeholder {
+    padding-left: 2px;
+}
+.form select {
+    width: 90%;
+    height: 26px;
+    margin-left: 30px;
+    outline: none;
+    border-radius: 6px;
+}
+.check-rec {
+    margin-top: 20px;
+}
+.check-rec p {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.radio span {
+    margin-left: 60px;
+    position: relative;
+    top: -24px;
+}
+.radio input {
+    width: 16px;
+}
+.form p {
+    margin-left: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#comentario {
+    height: 100px;
+}
+button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #aaffff;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+button:hover {
+    background-color: transparent;
+    color: white;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

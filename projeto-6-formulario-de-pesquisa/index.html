@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario de Pesquisa </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="productivity_planning_organization_task_management_to_do_list_icon_260998.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Formúlario de Pesquisa</h1>
+        <form action="#" class="form">
+            <label for="#">Nome</label>
+            <input type="name"  placeholder="Digite seu Nome" required>
+
+            <label for="#">Email</label>
+            <input type="email" placeholder="Digite seu Email" required> 
+
+            <label for="#">Idade</label>
+            <input type="number" placeholder="Digite sua Idade" required> 
+
+            <label for="#">Qual opção melhor descreve sua função atual?</label>
+            <select required>
+                <option value="">Escolha uma das Opções</option>
+                <option value="">Estudante</option>
+                <option value="">Trabalho e Estudo</option>
+                <option value="">Trabalha em tempo Integral</option>
+                <option value="">Prefere não dizer</option>
+                <option value="">Outro</option>
+            </select>
+            <div class="check-rec"> <!-- classe para saber se recomendaria -->
+                <p>Você recomendaria essa Pesquisa para seus amigos?</p>
+                <div class="radio">
+                    <input type="radio" name="check" id="" checked> <span>Sim</span>
+                    <input type="radio" name="check" id=""> <span>Não</span>
+                    <input type="radio" name="check" id=""> <span>Talvez</span>
+                </div>
+            </div>
+            <p>Deixa acresentar alguma coisa? </p>
+            <input type="text" name="" id="comentario" placeholder="Escreva seu comentário aqui!!">
+            <div class="btn">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
