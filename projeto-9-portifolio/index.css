@@ -1,0 +1,148 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fdf4d6;
+    font-family: Arial, Helvetica, sans-serif
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #f8dfa4;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px #f8dfa4;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    gap: 80px;
+}
+.navbar ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar ul li a:hover {
+    background-color: #fbeabd;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#info-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+#img {
+    max-width: 48vh;
+    clip-path: circle(30%);
+}
+#info-sobre p {
+  text-align: justify;
+  font-size: 18px;
+}
+#info-sobre h1 {
+    font-size: 38px;
+}
+
+#projetos {
+    background-color: #f8dfa4;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    place-items: center;
+}
+.card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+#projetos .card-div .card {
+    background-color: #ffff;
+    width: 400px;
+    height: 260px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+#projetos .card-div .card  img {
+    border-radius: 20px;
+    width: 100%;
+}
+#projetos .card-div .card h2 {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+#projetos h1 {
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card a:hover {
+    text-decoration: underline #756f6f;
+}
+#contato {
+    background-color: #ffffbf;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+    
+}
+#contato a {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+.git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.git:hover {
+    transform: translateY(8px);
+}
+.linkden {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.linkden:hover {
+    transform: translateY(8px);
+}
+#contato-h1 {
+    margin-top: 80px;
+    font-size: 28px;
+}
