@@ -84,7 +84,7 @@ body {
         font-size: 10px;
     }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1990px) {
     .container .box {
         width: 450px;
         height: 620px;
