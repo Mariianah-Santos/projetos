@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+} 
+
+.container .card img {
+    max-width: 40vh;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.container .card .info {
+    margin-left: -48px;
+}
+.container .card .info h1 {
+    font-size: 16px;
+    color: white;
+    
+}
+.container .card .info p {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 14px;
+}
+.container .card .criador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -78px;
+}
+.container .card .criador p {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.container .card .criador p a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container .card .criador img {
+    max-width: 5vh;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+.test ul{
+    list-style-type: none;
+}
+.container .card .line {
+    background-color: hsl(215, 32%, 27%);
+    width: 88%;
+    height: 2px;
+ }
+ #time {
+    color: hsl(178, 100%, 50%);
+    padding-right: 88px;
+ }
+ .side {
+    display: flex;
+    margin: 30px;
+ }
+ #days {
+    color: hsl(215, 51%, 70%);
+ }
