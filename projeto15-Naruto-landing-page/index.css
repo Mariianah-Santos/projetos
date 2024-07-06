@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F05321;
+    font-family: 'Diphylleia', serif;
+}
+
+#logo {
+    margin-left: 1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcba21;
+    box-shadow: 0 8px 10px 8px #fcba21;
+}
+
+.btn-nav button {
+    background-color: #F05321;
+    border: 0;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn-nav button:hover {
+    background-color: transparent ;
+    border: 2px solid white;
+    color: white;
+    font-weight: 400;
+    box-shadow: 0 0 10px 1px white;
+}
+main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.container{
+    background-color: white;
+    width: 1100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%);
+}
+.container h3 {
+    margin-top: 2rem;
+    font-size: 30px;
+}
+.container-filho img {
+    border-radius: 20px;
+}
+
+.container-filho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-filho p {
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 18px;
+}
