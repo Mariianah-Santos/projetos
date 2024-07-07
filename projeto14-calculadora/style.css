@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #edf1f4;
+}
+.dark {
+    background: #282c2f;
+}
+.Calculadora {
+    position: relative;
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1),
+    -15px -15px 20px #fff;
+}
+.dark .Calculadora{
+    background: #33393e;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25),
+    -15px 15px 20px rgba(255, 255, 255, 0.1);
+}
+
+.Calculadora .botoes {
+    position: relative;
+    display: grid;
+}
+
+.Calculadora .botoes #valor {
+    position: relative;
+    grid-column: span 4;
+    user-select: none;
+    overflow: none;
+    width: 100%;
+    text-align: end;
+    color: #5166d6;
+    height: 100px;
+    line-height: 100px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 20px #fff;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding:  0 20px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.dark .Calculadora .botoes #valor {
+    
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+    inset -15px 15px 20px rgba(255, 255, 255, 0.1);
+    color: #eee;
+}
+
+.Calculadora .botoes span {
+    position: relative;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), 
+    -5px -5px 20px #fff;
+    margin: 10px;
+    cursor: pointer;
+    user-select: none;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #666;
+    border: 2px solid #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), 
+    -5px -5px 10px #fff;
+    border-radius: 10px;
+}
+.dark .Calculadora .botoes span {
+    color: #eee;
+    border: 2px solid #33393e;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25),
+    -5px 5px 10px rgba(255, 255, 255, 0.1);
+
+}
+
+.Calculadora .botoes span:active {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), 
+    inset -5px -5px 20px #fff;
+    color: #f44336;
+}
+.dark .Calculadora .botoes span:active {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.25),
+    inset -5px 5px 10px rgba(255, 255, 255, 0.1);
+
+}
+.Calculadora .botoes span#limpa {
+    grid-column: span 2;
+    background: #f44336;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+.Calculadora .botoes span#adicao {
+    grid-row: span 2;
+    background: #31a935;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+.Calculadora .botoes span#igual {
+    grid-row: span 2;
+    background: #2196f3;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+.dark .Calculadora .botoes span#limpa,
+.dark .Calculadora .botoes span#adicao,
+.dark .Calculadora .botoes span#igual {
+
+    border: 2px solid #33393e;
+}
+
+.Calculadora .botoes span#limpa:active,
+.Calculadora .botoes span#adicao:active,
+.Calculadora .botoes span#igual:active {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), 
+    -5px -5px 20px #fff,
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .Calculadora .botoes span#limpa:active,
+.dark .Calculadora .botoes span#adicao:active,
+.dark .Calculadora .botoes span#igual:active {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modoEscuro {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #555;
+    cursor: pointer;
+    border: 2px solide #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25), 
+    -5px -5px 10px rgba(255, 255, 255, 0.25);
+}
+
+.dark .modoEscuro {
+    background: #edf1f4;
+    border: 2px solid #33393e;
+}
+
