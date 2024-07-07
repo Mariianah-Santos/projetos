@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.619);
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+    width: 90%;
+}
+body {
+    background-image: url("fotos/background-aranha.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(19, 18, 18);
+}
+.container li {
+   list-style: none;
+   display: inline;
+   padding: 10px;
+}
+.container a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.titulo-destaque {
+    color: white;
+    margin-left: 82px;
+    margin-top: 50px;
+}
+.titulo-destaque h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 70px;
+
+}
+.titulo-destaque p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.nota {
+    display: flex;
+    margin-top: 1rem;
+}
+.nota p {
+    padding: 6px;
+    font-size: 15px;
+}
+.titulo-destaque button {
+    font-family: 'Gilroy-Medium', sans-serif;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 1rem;
+}
+.pc {
+    margin-left: 82px;
+}
+.pc h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: white;
+    font-size: 26px;
+    margin-top: 3rem;
+}
+.pc-card {
+    display: flex;
+
+}
+.pc-card img{
+    margin-top: 1rem;
+    width: 200px;
+    border-radius: 20px;
+    padding: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+.pc-card img:hover {
+    transform: scale(1.10, 1.10);
+}
+.n-r {
+    margin-left: 82px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: white;
+    margin-top: 3rem;
+    
+}
+.n-r h2 {
+    font-size: 26px;
+
+}
+.n-r-card img {
+    margin-top: 1rem;
+    width: 200px;
+    border-radius: 20px;
+    padding: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+.n-r-card img:hover {
+    transform: scale(1.10, 1.10);
+}
+.anime {
+    margin-top: 3rem;
+    margin-left: 82px;
+}
+.anime h2 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.anime-card img {
+    width: 200px;
+    border-radius: 20px;
+    padding: 0px 10px 0px 0px;
+    cursor: pointer;
+
+}
+.anime-card img:hover {
+    transform: scale(1.10, 1.10);
+}
