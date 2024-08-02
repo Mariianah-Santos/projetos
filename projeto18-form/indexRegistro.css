@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #9e30d4;
+}
+.container {
+    width: 84%;
+    height: 84vh;
+    display: flex;
+}
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c92ff7;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.632);
+}
+.img img {
+    width: 31rem;
+}
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.632);
+}
+.form .form-header {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form .btn-login {
+    display: flex;
+    align-items: center;
+}
+.form .btn-login button {
+    border: none;
+    background-color: #8315c5;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form .btn-login button:hover {
+    background-color: #c92ff7;
+}
+.form .btn-login button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+} 
+
+.form .form-header h1 {
+    font-size: 18pt;
+}
+.form .form-header h1::after {
+    content: ' ';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #9e30d4;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form .input-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    justify-content: space-around;
+}
+.form .input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.form .input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.form .input-box input:hover {
+    background-color: #eeeeee75;
+}
+.form .input-box input:focus-visible {
+    outline: 1px solid #8315c5;
+}
+
+.form .input-box label{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #000000c0;
+}
+.form .genero-title h6 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 44px;
+}
+.form .input-box ::placeholder {
+    color: #000000be;
+    font-size: 0.70rem;
+}
+.form .genero-grupo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    margin-top: 0.62rem;
+}
+.form .genero-input {
+    display: flex;
+    align-items: center;
+}
+.form .genero-input input {
+    margin-right: 0.5rem;
+}
+.form .genero-input label {
+    font-size: 0.81rem;
+    font-weight: 500;
+    color: #000000c0;
+}
+.form .btn-next button {
+    width: 80%;
+    border: none;
+    margin-top: 2.5rem;
+    background-color: #8315c5;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.form .btn-next button:hover {
+    background-color: #c92ff7;
+}
+.form .btn-next button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
