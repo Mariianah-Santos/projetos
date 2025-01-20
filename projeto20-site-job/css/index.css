@@ -67,13 +67,13 @@ nav::after {
     margin: 0 15px;
 }
 
-.container li a {
+.nav-container li a {
     text-decoration: none;
     color: #666;
     transition: .5s;
 }
 
-.container li a:hover {
+.nav-container li a:hover {
     color: #3381f3;
 }
 
@@ -497,4 +497,122 @@ nav::after {
 
 .article-btn:hover {
     color: #3381f3;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #666;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #3381f3;
+}
+
+footer h2, footer p, footer a, footer span {
+    color: #d1d1d1;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer_box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+.footer_box a {
+    color: #fff;
+}
+footer .wrapper::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.compay_footer {
+    width: 80%;
+}
+
+.compay_footer h2 {
+    margin-top: 20px;
+}
+
+.compay_footer h2, .compay_footer p {
+    margin-bottom: 20px;
+}
+
+.footer_list li {
+    margin-bottom: 15px;
+}
+
+.footer_list a {
+    transition: .5s;
+}
+
+.footer_list a:hover {
+    color: #3381f3;
+}
+
+.footer_list li::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.article_footer {
+    width: 80%;
+}
+.article_footer  h2 {
+    margin-bottom: 1rem;
+}
+
+.footer_list.footer_article_list span{
+    display: block;
+    float: none;
+}
+
+.bi {
+    font-size: 30px;
+    align-items: center;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.footer_list li span {
+    float: left;
+    height: 30px;
+    line-height: 20px;
+}
+.midias h2 {
+    margin-bottom: 1rem;
+}
+
+.footer_bottom  {
+    border-top: 1px solid #b2b2b2;
+}
+
+.footer_bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.article-date {
+    margin-top: 5px;
 }
