@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBoot</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="chatbox-wrapper">
+        <div class="chatbox-toggle">
+            <i class="bi bi-chat-left-dots"></i>
+        </div>
+        <div class="chatbox-message-wrapper">
+            <div class="chatbox-message-header">
+                <div class="chatbox-message-profile">
+                    <img src="assets/img/1641410090548.jpg" alt="foto de perfil" class="chatbox-message-image">
+                    <div>
+                        <h4 class="chatbox-message-username">Mariana Gonçalo</h4>
+                        <p class="chatbox-message-status">Online</p>
+                    </div>
+                </div>
+                <div class="chatbox-message-dropdown">
+                    <i class="bi bi-three-dots-vertical chatbox-message-dropdown-toggle"></i>
+                    <ul class="chatbox-message-dropdown-menu">
+                        <li><a href="">Search</a></li>
+                        <li><a href="">Report</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="chatbox-message-content">
+                <div class="chatbox-message-item sent">
+                    <span class="chatbox-message-item-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    </span>
+                    <span class="chatbox-message-item-time">12:00</span>
+                </div>
+
+                <div class="chatbox-message-item received">
+                    <span class="chatbox-message-item-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    <span class="chatbox-message-item-time">12:00</span>
+                </div>
+            </div>
+            <div class="chatbox-message-botton">
+                <form action="#" class="chatbox-message-form">
+                    <textarea row="1" placeholder="Digite aqui..." class="chatbox-message-input"></textarea>
+                    <button type="submit" class="chatbox-message-submit">
+                        <i class="bi bi-send"></i>
+                    </button>
+                </form>
+            </div>  
+        </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+</html>
