@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.scroll1 {
+    overflow-y: auto;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.scroll2 {
+    overflow-x: scroll;
+    width: 300px;
+    height: 50px;
+    white-space: nowrap;
+    border: 1px solid yellow;
+}
+
+.scroll3 {
+    overflow-y: auto;
+    border: 1px solid black;
+    height: 120px;
+    padding: 20px;
+}
+
+.scroll4 {
+    overflow-y: auto;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+
+.scroll4 img {
+    width: 45vh;
+}
+
+.scroll5 {
+    overflow-y: scroll;
+    border: 1px solid rgb(250, 0, 42);
+    width: 300px;
+    height: 200px;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll6 {
+    border: 2px solid magenta;
+    padding: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.scroll6 ul{
+    display: flex;
+    gap: 20px;
+}
+
+.scroll6 li {
+    display: flex;
+    
+    list-style: none;
+}
+
+.scroll7 {
+    overflow-y: scroll;
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkblue;
+    padding: 20px;
+    scrollbar-width: thin; /* mostra uma barra de rolagem fina */
+    scrollbar-color:  transparent transparent;
+}
+
+.scrollbox {
+    width: 300px;
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+  }
+
+  /* Remove setas do Chrome */
+  .scrollbox::-webkit-scrollbar-button {
+    display: none !important;
+  }

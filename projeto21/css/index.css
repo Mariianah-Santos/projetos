@@ -1,0 +1,11 @@
+body {
+    background: gray;
+}
+
+p {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
