@@ -1,0 +1,61 @@
+<header>
+    <nav>
+        <div class="nav-container">
+            <img src="/img/logo.png" href="/" alt="joblogo" id="logo">
+                <ul>
+                    <li><a href="/">Encontrar Vaga</a></li>
+                    <li><a href="/jobs/add">Enviar Vaga</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+        </div>
+    </nav>
+    <div id="main-banner">
+        <div id="search-form">
+            <h1>A maneira mais fácil de encontra seu novo emprego</h1>
+                <p>
+                    Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.
+                </p>
+                <form action="/" method="get">
+                    <input type="text" name="job" placeholder="Digite o cargo">
+                    <input type="submit" value="Pesquisar">
+                </form>
+        </div>
+    </div>
+</header>
+
+<main id="lastjobs-container" class="wrapper">
+    {{#if search}}
+        <h1>Buscando vagas que contém: {{search}}</h1>
+    {{else}}
+        <h1>Últimas vagas enviadas</h1>
+    {{/if}}
+        <ul>
+            {{#each jobs}}
+                <li class="list-group-item {{#if dataValues.new_job}}new_job{{/if}}">
+                    <a href="#">
+                        <div class="company">
+                            <img src="/img/googlelogo.png" alt="">
+                            <div class="company-info">
+                                <p>{{dataValues.company}}</p>
+                                <h3>{{dataValues.title}}</h3>
+                                <p>{{dataValues.salary}}</p>
+                            </div>
+                         </div>
+                        <div class="job-type verVaga">
+                            <a class="a-verVaga" href="/jobs/view/{{dataValues.id}}">Ver vaga</a>
+                        </div>
+                            {{!-- <div class="locality">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <p>Mountain View, California</p>
+                            </div>
+                            <div class="job-type">
+                                <span class="clt">clt</span>
+                            </div> --}}
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+        {{!-- <div class="btnjobs-container">
+            <a href="#" class="btn-job">Ver mais vagas</a>
+        </div> --}}
+</main>

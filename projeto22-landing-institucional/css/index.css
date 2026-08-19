@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/stolen-times-personal-use');
+@import url('https://fonts.cdnfonts.com/css/lt-museum');
+@import url('https://fonts.cdnfonts.com/css/cona');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* HEADER  */
+
+/* .header {
+    position: fixed;
+    width: 100%;
+} */
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #311210;
+    height: 90px;
+}
+
+.header .navbar h2 {
+    margin-left: 2rem;
+    font-family: 'Stolen Times PERSONAL USE', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #862020;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.menu li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #e4a89c;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+}
+
+.menu a:hover {
+    color: #7f4a44;
+    border-bottom: 1px solid #e4a89c;
+}
+
+.menu a:active {
+    color: gray;
+}
+
+/* CONTAINER  */
+
+.container {
+    margin-top: 1rem;
+    background-image: url("../assets/cafe1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap: .2rem;
+}
+
+.container h2 {
+    font-family: 'LT Museum', sans-serif;
+    font-size: 40px;
+    color: #311210;
+
+}
+
+.container p {
+   font-family: 'Cona', sans-serif;
+   color: #7f4a44;
+   font-size: 20px;
+}
+
+.btn-main {
+    padding-top: 1rem;
+}
+
+.btn-main button{
+    background-color: #311210;
+    border: 0;
+    color: #e4a89c;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-main button:hover {
+    background-color: transparent;
+    border: 2px solid #311210;
+    color: #311210;
+}
+
+.main-span {
+    width: 40%;
+    padding-top: 10rem;
+    color: #311210;
+}
+
+/* section 1 */
+
+.secao1 h2 {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.card-img {
+    background-color: #7f4a44;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.card-img span {
+    padding-top: .4rem;
+}
+.card-img img {
+    width: 45vh;
+    border-radius: 10px;
+}
+
+.card-info {
+    width: 30%;
+    text-align: justify;
+    padding-left: 1rem;
+}
+
+#contato {
+    margin-top: 2rem;
+    background-image: url("../assets/cafepreto.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+}
+
+.form {
+    position: relative;
+    top: 6rem;
+    color: white;
+    border: 2px solid #311210;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+    border-radius: 10px;
+    left: 2rem;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+}
+.form-box {
+    width: 50%;
+}
+
+.form-box input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #7f4a44;
+    outline: none;
+    background-color: transparent;
+    color: #e4a89c;
+    border-radius: 5px;
+}
+
+.form-box input:focus {
+    background-color: #160000;
+}
+
+::placeholder {
+   color: rgba(243, 242, 242, 0.5);
+}
+
+.btn-form {
+    padding-top: 1rem;
+}
+
+.btn-form button {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    background-color: #311210;
+    color: white;
+
+}
+
+.btn-form button:hover {
+    background-color: #7f4a44;
+}
+
+/* footer  */
+.footer {
+    bottom: 0;
+    background-color: #7f4a44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    color: white;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.footer h2 {
+    font-family: 'Stolen Times PERSONAL USE', sans-serif;
+    font-size: 30px;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   gap: 1rem;
+}
+
+.box1 {
+    border: 2px  solid black;
+    padding: 10PX;
+}
+
+.box1 h1{
+    font-size: 18px;
+}
+
+.box1 button:hover {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.box2 {
+    border: 2px  solid black;
+    padding: 10PX;
+}
+
+.box2 input:focus {
+    background-color: yellow;
+    color: RED;
+    border: 0;
+}
+
+.box2 textarea:focus {
+    padding: 20px;
+    background-color: bisque;
+    border: 2px solid orange;
+}
+
+.box3 {
+    border: 2px  solid black;
+    padding: 10PX;
+    font-size: 16px;
+}
+
+.box3 a:active {
+    color: orange;
+}
+
+.box4 {
+    border: 2px  solid black;
+    padding: 10PX;
+    font-size: 16px;
+}
+.box4 li {
+    background-color: aqua;
+    padding: 5px;
+}
+
+.box4 li i {
+    display: none;
+}
+
+.box4 li:hover i{
+    display: inline;
+}
+.box4 a:hover {
+    color: red;
+}
+
